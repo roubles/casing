@@ -48,7 +48,7 @@ To be proper camel case a word - digits allowed
 * MAY end in an uppercase alphabet
 
 ```
-^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]*|([a-z0-9]+[A-Z])*|[A-Z])$
+^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]{0,1}|([a-z0-9]+[A-Z])*|[A-Z])$
 ```
 Regex 101 link: https://regex101.com/r/LUf5Pn/2
 
