@@ -154,13 +154,13 @@ To be proper pascal case a word - digits allowed - Upto 3 upper case letters
 Regex 101 link: https://regex101.com/r/N1gVvB/2
 
 #### Notable examples
-* IOStream is valid pascal case with no digits allowed - Upto 3 upper case letters
-* StreamIO is valid pascal case with no digits allowed - Upto 3 upper case letters
-* IOStream is valid pascal case with no digits allowed - Upto 3 upper case letters
-* DeviceID is valid pascal case with no digits allowed - Upto 3 upper case letters
-* AwsVPC is valid pascal case with no digits allowed - Upto 3 upper case letters
-* DeviceSNS is valid pascal case with no digits allowed - Upto 3 upper case letters
-* CreateAMode is valid pascal case with no digits allowed - Upto 3 upper case letters
-* CreateBMode is valid pascal case with no digits allowed - Upto 3 upper case letters
-* ABCabcABCabc is valid pascal case with no digits allowed - Upto 3 upper case letters
-* ABCabcABCabcA is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```IOStream``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```StreamIO``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```IOStream``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```DeviceID``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```AwsVPC``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```DeviceSNS``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```CreateAMode``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```CreateBMode``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```ABCabcABCabc``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+* ```ABCabcABCabcA``` is valid pascal case with no digits allowed - Upto 3 upper case letters
