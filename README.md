@@ -115,3 +115,26 @@ Regex 101 link: https://regex101.com/r/0KsW4i/3
 * ```A``` is valid pascal case
 * ```Ag``` is valid pascal case
 * ```AaA``` is valid pascal case
+
+### Pascal Case - digits allowed
+
+To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+* MUST start with an upper case alphabet (A through Z)
+* MUST have no digits (0 - 9)
+* MUST have no spaces, punctuation or special characters
+* CAN have *at most* 1 uppercase alphabet in a row
+* CAN end in an uppercase alphabet
+
+```
+^[A-Z](([a-z0-9]+[A-Z]?)*)$
+```
+Regex 101 link: https://regex101.com/r/sQWmep/2
+
+#### Notable examples
+* ```Aabc123``` is valid pascal case with digits allowed
+* ```Pascal2Case``` is valid pascal case with digits allowed
+* ```Pascal2CaseA``` is valid pascal case with digits allowed
+* ```Mode2A``` is valid pascal case with digits allowed
+* ```Mode2A2``` is valid pascal case with digits allowed
+* ```Mode2A2A``` is valid pascal case with digits allowed
+* ```SupportsIpv6OnIos``` is valid pascal case with digits allowed
