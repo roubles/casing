@@ -177,7 +177,7 @@ Regex 101 library entry: https://regex101.com/library/0HyUw3
 
 ### Pascal Case - digits allowed - Upto 3 upper case letters
 
-To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+To be proper pascal case a word with digits allowed and with upto 3 upper case letters, a word:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
@@ -186,7 +186,7 @@ To be proper pascal case a word - digits allowed - Upto 3 upper case letters
 ```
 ^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
 ```
-Regex 101 link: https://regex101.com/r/joAKeL/1
+Regex 101 link: https://regex101.com/library/TLTXbK
 
 #### Notable examples
-* ```Camel01CC01``` is valid pascal case with digits allowed - Upto 3 upper case letters
+* ```Camel01CC01``` is valid pascal case with digits allowed and with upto 3 upper case letters
