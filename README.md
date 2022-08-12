@@ -75,10 +75,10 @@ To be proper camel case a word - *no* digits allowed - Upto 3 upper case letters
 Regex 101 link: https://regex101.com/r/L0CfKd/2
 
 #### Notable examples
-* streamIO is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
-* deviceID is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
-* serialNo is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
-* awsVPC is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
+* ```streamIO``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
+* ```deviceID``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
+* ```serialNo``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
+* ```awsVPC``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
 
 ### Camel Case - digits allowed - Upto 3 upper case letters
 
