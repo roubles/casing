@@ -11,8 +11,18 @@ Camel Case can be broken down into:
 * There CAN AT MOST be one capital letter in a row. Some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
 * There MUST BE NO Spaces, punctuation, underscores, dots and special characters.
 * All Characters MAY be lower case alphabets. That is ```alphabet``` is valid camel case.
-* ```a``` is valid lower camel case, and ```A``` is valid upper camel case.
 * Digits MAY be allowed in Camel Case words - depending on the usecase.
+
+## Notable Examples
+* ```a``` is valid lower camel case
+* ```A``` is valid upper camel case
+* ```aG``` is valid lower camel case
+* ```Ag``` is valid upper camel case
+* ```aGa``` is valid lower camel case
+* ```AgA``` is valid upper camel case
+* ```alphabet``` is valid lower camel case
+* ```camelCase``` is valid lower camel case
+* ```PascalCase``` is valid upper camel case
 
 ## Regular Expressions
 ### Camel Case - *no* digits allowed
