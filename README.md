@@ -1,6 +1,6 @@
 # The unofficial standard for camelCase and PascalCase
 
-Camel case is a way writing phrases without spaces or punctuation. There is no official RFC or standard on either case. This document attempts to fill that void.
+Camel case is a way writing phrases without spaces or punctuation. There is no official RFC or standard on either case. This document attempts to fill that void. It also provides tested regular expressions for the various variations of camel case and pascal case.
 
 Camel Case can be broken down into: 
 * Lower Camel Case, also known as **Camel Case**, starts with a *lower* case alphabet
