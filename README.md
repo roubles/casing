@@ -7,10 +7,10 @@ Camel Case can be broken down into:
 * Upper Camel Case, also known as **Pascal Case**, starts with an upper case alphabet 
 
 ## Rules
-* Camelcase must start with a lower case alphabet or an upper case alphabet
-* There can be at most one capital letter in a row. Some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
-* Spaces, punctuation, underscores, dots and special characters are expressly disallowed.
-* Digits may or may not be allowed in Camel Case words - depending on the usecase.
+* Camelcase MUST start with a lower case alphabet or an upper case alphabet
+* There can be AT MOST one capital letter in a row. Some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
+* There MUST BE NO Spaces, punctuation, underscores, dots and special characters.
+* Digits MAY be allowed in Camel Case words - depending on the usecase.
 
 ## Regular Expressions
 ### Camel Case - *no* digits allowed
