@@ -15,17 +15,6 @@ Common rules:
 * Camel case words MAY end in an upper case alphabet.
 * Camel case words MAY contain numbers (depending on the usecase)
 
-## Notable Examples
-* ```a``` is valid lower camel case
-* ```A``` is valid upper camel case
-* ```aG``` is valid lower camel case
-* ```Ag``` is valid upper camel case
-* ```aGa``` is valid lower camel case
-* ```AgA``` is valid upper camel case
-* ```alphabet``` is valid lower camel case
-* ```camelCase``` is valid lower camel case
-* ```PascalCase``` is valid upper camel case
-
 ## Camel Case Variations with Regular Expressions
 ### Camel Case - *no* digits allowed
 
@@ -42,11 +31,13 @@ To be proper camel case a word - no digits allowed
 Regex 101 link: https://regex101.com/r/4h7A1I/1
 
 #### Notable examples
-
 * ```a``` is valid lower camel case
 * ```aG``` is valid lower camel case
 * ```camelCase``` is valid lower camel case
 * ```camelCasE``` is valid lower camel case 
+* ```aGa``` is valid lower camel case
+* ```alphabet``` is valid lower camel case
+* ```camelCase``` is valid lower camel case
 
 ### Camel Case - digits allowed
 
