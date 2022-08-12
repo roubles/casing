@@ -186,7 +186,7 @@ To be proper pascal case a word with digits allowed and with upto 3 upper case l
 ```
 ^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
 ```
-Regex 101 link: https://regex101.com/library/TLTXbK
+Regex 101 library entry: https://regex101.com/library/TLTXbK
 
 #### Notable examples
 * ```Camel01CC01``` is valid pascal case with digits allowed and with upto 3 upper case letters
