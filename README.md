@@ -96,3 +96,22 @@ Regex 101 link: https://regex101.com/r/njKcix/1
 
 #### Notable examples
 * ```camel01CC01``` is valid lower camel case with digits allowed - Upto 3 upper case letters
+
+### Pascal Case - no digits allowed
+
+To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+* MUST start with an upper case alphabet (A through Z)
+* MUST have no digits (0 - 9)
+* MUST have no spaces, punctuation or special characters
+* CAN have *at most* 1 uppercase alphabet in a row
+* CAN end in an uppercase alphabet
+
+```
+^[A-Z](([a-z]+[A-Z]?)*)$
+```
+Regex 101 link: https://regex101.com/r/0KsW4i/3
+
+#### Notable examples
+* ```A``` is valid pascal case
+* ```Ag``` is valid pascal case
+* ```AaA``` is valid pascal case
