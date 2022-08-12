@@ -16,6 +16,14 @@ Common rules:
 * Camel case words MAY contain numbers (depending on the implementation/usecases)
 
 ## Camel Case Variations with Regular Expressions
+
+Table of Contents
+[Camel Case No Digits Allowed](https://github.com/roubles/casing/blob/main/README.md#camel-case---no-digits-allowed)
+[Camel Case Digits Allowed](https://github.com/roubles/casing/blob/main/README.md#camel-case---digits-allowed)
+[Camel Case No Digits Allowed - Upto 3 upper case letters](https://github.com/roubles/casing/blob/main/README.md#camel-case---no-digits-allowed---upto-3-upper-case-letters)
+[Camel Case Digits Allowed - Upto 3 upper case letters](https://github.com/roubles/casing/blob/main/README.md#camel-case---digits-allowed---upto-3-upper-case-letters)
+
+
 ### Camel Case - *no* digits allowed
 
 To be proper camel case a word - no digits allowed
