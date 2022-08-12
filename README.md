@@ -109,7 +109,7 @@ Regex 101 library entry: https://regex101.com/library/C2eHyc
 
 ### Pascal Case - no digits allowed
 
-To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+To be proper pascal case with *no* digits allowed, a word:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -119,7 +119,7 @@ To be proper pascal case a word - digits allowed - Upto 3 upper case letters
 ```
 ^[A-Z](([a-z]+[A-Z]?)*)$
 ```
-Regex 101 link: https://regex101.com/r/0KsW4i/3
+Regex 101 library entry: https://regex101.com/library/sF2jRZ
 
 #### Notable examples
 * ```A``` is valid pascal case
