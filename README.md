@@ -3,13 +3,15 @@
 Camel case is a way writing phrases without spaces or punctuation. There is no official RFC or standard on either case. This document attempts to fill that void.
 
 Camel Case can be broken down into: 
-* Lower Camel Case, also known as **Camel Case**, starts with a lower case alphabet
-* Upper Camel Case, also known as **Pascal Case**, starts with an upper case alphabet 
+* Lower Camel Case, also known as **Camel Case**, starts with a *lower* case alphabet
+* Upper Camel Case, also known as **Pascal Case**, starts with an *upper* case alphabet 
 
 ## Rules
 * Camelcase MUST start with a lower case alphabet or an upper case alphabet
-* There can be AT MOST one capital letter in a row. Some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
+* There CAN AT MOST be one capital letter in a row. Some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
 * There MUST BE NO Spaces, punctuation, underscores, dots and special characters.
+* All Characters MAY be lower case alphabets. That is ```alphabet``` is valid camel case.
+* ```a``` is valid lower camel case, and ```A``` is valid upper camel case.
 * Digits MAY be allowed in Camel Case words - depending on the usecase.
 
 ## Regular Expressions
@@ -25,6 +27,7 @@ To be proper camel case a word - no digits allowed
 ```
 ^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]*|([a-z]+[A-Z])*|[A-Z])$
 ```
+Regex 101 link: https://regex101.com/r/4h7A1I/1
 
 ### Camel Case - digits allowed
 
