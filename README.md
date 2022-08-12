@@ -28,7 +28,7 @@ Common rules:
 
 ### Camel Case - *no* digits allowed
 
-To be proper camel case a word - no digits allowed
+To be proper camel case a word with no digits allowed, a word:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -38,7 +38,6 @@ To be proper camel case a word - no digits allowed
 ```
 ^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]{0,1}|([a-z]+[A-Z])*|[A-Z])$
 ```
-- Regex 101 link: https://regex101.com/r/4h7A1I/1
 - Regex 101 library entry: https://regex101.com/library/4h7A1I
 
 #### Notable examples
@@ -52,7 +51,7 @@ To be proper camel case a word - no digits allowed
 
 ### Camel Case - digits allowed
 
-To be proper camel case a word - digits allowed
+To be proper camel case a word with digits allowed, a word:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
@@ -61,7 +60,6 @@ To be proper camel case a word - digits allowed
 ```
 ^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]{0,1}|([a-z0-9]+[A-Z])*|[A-Z])$
 ```
-- Regex 101 link: https://regex101.com/r/8nQras/1
 - Regex 101 library entry: https://regex101.com/library/8nQras
 
 #### Notable examples
