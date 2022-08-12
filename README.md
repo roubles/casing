@@ -13,7 +13,7 @@ Common rules:
 * Camel case words MUST HAVE no Spaces, punctuation, underscores, dots and special characters.
 * Camel case words MAY have all lower case alphabets. That is ```alphabet``` is valid camel case.
 * Camel case words MAY end in an upper case alphabet.
-* Camel case words MAY contain numbers (depending on the usecase)
+* Camel case words MAY contain numbers (depending on the implementation/usecases)
 
 ## Camel Case Variations with Regular Expressions
 ### Camel Case - *no* digits allowed
