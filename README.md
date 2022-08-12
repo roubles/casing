@@ -33,7 +33,7 @@ To be proper camel case a word - no digits allowed
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
-* CAN end in an uppercase alphabet
+* MAY end in an uppercase alphabet
 
 ```
 ^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]{0,1}|([a-z]+[A-Z])*|[A-Z])$
@@ -46,11 +46,12 @@ To be proper camel case a word - digits allowed
 * MUST start with a lower case alphabet (a through z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
-* CAN end in an uppercase alphabet
+* MAY end in an uppercase alphabet
 
 ```
 ^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]*|([a-z0-9]+[A-Z])*|[A-Z])$
 ```
+Regex 101 link: https://regex101.com/r/LUf5Pn/2
 
 ### Camel Case - *no* digits allowed - Upto 3 upper case letters
 
