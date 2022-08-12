@@ -91,4 +91,5 @@ To be proper camel case a word - digits allowed - Upto 3 upper case letters
 ```
 ^[a-z][a-z0-9]*(([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{1,3})*|[A-Z]{1,3})$
 ```
+
 Regex 101 link: https://regex101.com/r/njKcix/1
