@@ -72,7 +72,7 @@ To be proper camel case a word with digits allowed, a word:
 
 ### Camel Case - *no* digits allowed - Upto 3 upper case letters
 
-To be proper camel case a word - *no* digits allowed - Upto 3 upper case letters
+To be proper camel case a word with *no* digits allowed and upto 3 upper case letters, a word:
 * Must start with a lower case alphabet (a through z)
 * Must have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -92,7 +92,7 @@ Regex 101 link: https://regex101.com/r/L0CfKd/2
 
 ### Camel Case - digits allowed - Upto 3 upper case letters
 
-To be proper camel case a word - digits allowed - Upto 3 upper case letters
+To be proper camel case a word with digits allowed and upto 3 upper case letters, a word:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
