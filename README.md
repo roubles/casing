@@ -1,6 +1,6 @@
 # The unofficial standard for camelCase and PascalCase
 
-There is no official RFC or standard on either case. This document attempts to fill that void, in addition to providing tested regular expressions for the various variations of camel case and pascal case.
+There is no official RFC or standard on Camel Case or Pascal Case. This document attempts to fill that void, in addition to providing tested regular expressions for the various variations of camel case and pascal case.
 
 ## Rules
 Camel Case can be broken down into: 
