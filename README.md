@@ -139,7 +139,7 @@ Regex 101 link: https://regex101.com/r/sQWmep/2
 * ```Mode2A2A``` is valid pascal case with digits allowed
 * ```SupportsIpv6OnIos``` is valid pascal case with digits allowed
 
-### Pascal Case - no digits allowed - Upto 3 upper case letters
+### Pascal Case - *no* digits allowed - Upto 3 upper case letters
 
 To be proper pascal case a word - digits allowed - Upto 3 upper case letters
 * MUST start with an upper case alphabet (A through Z)
@@ -164,3 +164,19 @@ Regex 101 link: https://regex101.com/r/N1gVvB/2
 * ```CreateBMode``` is valid pascal case with no digits allowed - Upto 3 upper case letters
 * ```ABCabcABCabc``` is valid pascal case with no digits allowed - Upto 3 upper case letters
 * ```ABCabcABCabcA``` is valid pascal case with no digits allowed - Upto 3 upper case letters
+
+### Pascal Case - digits allowed - Upto 3 upper case letters
+
+To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+* MUST start with an upper case alphabet (A through Z)
+* MUST have no spaces, punctuation or special characters
+* CAN have *at most* 3 uppercase alphabets in a row
+* CAN end in an uppercase alphabet
+
+```
+^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
+```
+Regex 101 link: https://regex101.com/r/joAKeL/1
+
+#### Notable examples
+* ```Camel01CC01``` is valid pascal case with digits allowed - Upto 3 upper case letters
