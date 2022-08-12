@@ -93,3 +93,6 @@ To be proper camel case a word - digits allowed - Upto 3 upper case letters
 ```
 
 Regex 101 link: https://regex101.com/r/njKcix/1
+
+#### Notable examples
+* ```camel01CC01``` is valid lower camel case with digits allowed - Upto 3 upper case letters
