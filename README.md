@@ -82,7 +82,7 @@ To be proper camel case a word with *no* digits allowed and upto 3 upper case le
 ```
 ^[a-z][a-z]*(([A-Z]{1,3}[a-z]+)*[A-Z]{0,3}|([a-z]+[A-Z]{1,3})*|[A-Z]{1,3})$
 ```
-Regex 101 link: https://regex101.com/r/L0CfKd/2
+Regex 101 library entry: https://regex101.com/library/bn3PEK
 
 #### Notable examples
 * ```streamIO``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
