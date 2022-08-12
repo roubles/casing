@@ -39,6 +39,7 @@ To be proper camel case a word - no digits allowed
 ^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]{0,1}|([a-z]+[A-Z])*|[A-Z])$
 ```
 Regex 101 link: https://regex101.com/r/4h7A1I/1
+Regex 101 library entry: https://regex101.com/library/4h7A1I
 
 #### Notable examples
 * ```a``` is valid lower camel case
@@ -60,7 +61,8 @@ To be proper camel case a word - digits allowed
 ```
 ^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]{0,1}|([a-z0-9]+[A-Z])*|[A-Z])$
 ```
-Regex 101 link: https://regex101.com/r/LUf5Pn/2
+Regex 101 link: https://regex101.com/r/8nQras/1
+Regex 101 library entry: https://regex101.com/library/8nQras
 
 #### Notable examples
 * ```cP3``` is valid lower camel case (with digits allowed)
