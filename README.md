@@ -25,7 +25,7 @@ Camel Case can be broken down into:
 * ```camelCase``` is valid lower camel case
 * ```PascalCase``` is valid upper camel case
 
-## Regular Expressions
+## Camel Case Variations with Regular Expressions
 ### Camel Case - *no* digits allowed
 
 To be proper camel case a word - no digits allowed
