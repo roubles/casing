@@ -128,7 +128,7 @@ Regex 101 library entry: https://regex101.com/library/sF2jRZ
 
 ### Pascal Case - digits allowed
 
-To be proper pascal case a word - digits allowed - Upto 3 upper case letters
+To be proper pascal case a word with digits allowed and with upto 3 upper case letters, a word:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -138,7 +138,7 @@ To be proper pascal case a word - digits allowed - Upto 3 upper case letters
 ```
 ^[A-Z](([a-z0-9]+[A-Z]?)*)$
 ```
-Regex 101 link: https://regex101.com/r/sQWmep/2
+Regex 101 library entry: https://regex101.com/library/csrkQw
 
 #### Notable examples
 * ```Aabc123``` is valid pascal case with digits allowed
