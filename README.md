@@ -1,12 +1,13 @@
 # The unofficial standard for camelCase and PascalCase
 
-Camel case is a way writing phrases without spaces or punctuation. There is no official RFC or standard on either case. This document attempts to fill that void. It also provides tested regular expressions for the various variations of camel case and pascal case.
+There is no official RFC or standard on either case. This document attempts to fill that void, in addition to providing tested regular expressions for the various variations of camel case and pascal case.
 
+## Rules
 Camel Case can be broken down into: 
 * Lower Camel Case, also known as **Camel Case**, starts with a *lower* case alphabet
 * Upper Camel Case, also known as **Pascal Case**, starts with an *upper* case alphabet 
 
-## Rules
+Common rules:
 * Camel case words MUST start with a lower case alphabet or an upper case alphabet
 * Camel case words CAN AT MOST have one capital letter in a row. Note: some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
 * Camel case words MUST HAVE no Spaces, punctuation, underscores, dots and special characters.
