@@ -58,6 +58,7 @@ To be proper camel case a word with digits allowed:
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
 * MAY end in an uppercase alphabet
+* MAY contain digits 0 - 9
 
 ```
 ^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]?|([a-z0-9]+[A-Z])*|[A-Z])$
@@ -101,6 +102,7 @@ To be proper camel case a word with digits allowed and upto 3 upper case letters
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
+* MAY contain digits 0 - 9
 
 This variation is used to support phrases like ```deviceID```, ```serialNO```, ```streamIO```, ```awsVPC```, ```deviceSN```.
 
@@ -136,10 +138,10 @@ Regex 101 library entry: https://regex101.com/library/sF2jRZ
 
 To be proper pascal case a word with digits allowed and with upto 3 upper case letters:
 * MUST start with an upper case alphabet (A through Z)
-* MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
 * CAN end in an uppercase alphabet
+* MAY contain digits 0 - 9
 
 ```
 ^[A-Z](([a-z0-9]+[A-Z]?)*)$
@@ -190,6 +192,7 @@ To be proper pascal case a word with digits allowed and with upto 3 upper case l
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
+* MAY contain digits 0 - 9
 
 This variation is used to support phrases like ```DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNO```.
 
