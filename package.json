@@ -1,0 +1,26 @@
+{
+  "name": "casing",
+  "version": "1.0.0",
+  "description": "The unofficial standard for camelCase and PascalCase",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roubles/casing.git"
+  },
+  "keywords": [
+    "camelCase",
+    "PascalCase"
+  ],
+  "author": "roubles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roubles/casing/issues"
+  },
+  "homepage": "https://github.com/roubles/casing#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

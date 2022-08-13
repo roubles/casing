@@ -1,0 +1,10 @@
+snake_case
+PascalCase
+2PascalCase
+streamIOIO
+gREATERDtha
+modeADFAFdsADFads
+aBabcABCDabcABC
+camelCa_1
+contextHTMLParser
+hELLO
