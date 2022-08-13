@@ -200,3 +200,10 @@ Regex 101 library entry: https://regex101.com/library/TLTXbK
 
 #### Notable examples
 * ```Camel01CC01``` is valid pascal case with digits allowed and with upto 3 upper case letters
+
+# Running Tests
+All the test case phrases are in the phrases folder. To run the tests run the following command in a cloned repo:
+
+```
+npm test
+```
