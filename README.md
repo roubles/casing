@@ -191,7 +191,7 @@ To be proper pascal case a word with digits allowed and with upto 3 upper case l
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
 
-This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNO```.
+This variation is used to support phrases like ```DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNO```.
 
 ```
 ^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
