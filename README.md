@@ -205,5 +205,6 @@ Regex 101 library entry: https://regex101.com/library/TLTXbK
 All the test case phrases are in the phrases folder. To run the tests run the following command in a cloned repo:
 
 ```
+npm install
 npm test
 ```
