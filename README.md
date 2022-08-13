@@ -30,7 +30,7 @@ Common rules:
 
 ### Camel Case - *no* digits allowed
 
-To be proper camel case a word with no digits allowed, a word:
+To be proper camel case a word with no digits allowed:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -53,7 +53,7 @@ To be proper camel case a word with no digits allowed, a word:
 
 ### Camel Case - digits allowed
 
-To be proper camel case a word with digits allowed, a word:
+To be proper camel case a word with digits allowed:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 1 uppercase alphabet in a row
@@ -74,7 +74,7 @@ To be proper camel case a word with digits allowed, a word:
 
 ### Camel Case - *no* digits allowed - Upto 3 upper case letters
 
-To be proper camel case a word with *no* digits allowed and upto 3 upper case letters, a word:
+To be proper camel case a word with *no* digits allowed and upto 3 upper case letters:
 * Must start with a lower case alphabet (a through z)
 * Must have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -96,7 +96,7 @@ Regex 101 library entry: https://regex101.com/library/bn3PEK
 
 ### Camel Case - digits allowed - Upto 3 upper case letters
 
-To be proper camel case a word with digits allowed and upto 3 upper case letters, a word:
+To be proper camel case a word with digits allowed and upto 3 upper case letters:
 * MUST start with a lower case alphabet (a through z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
@@ -134,7 +134,7 @@ Regex 101 library entry: https://regex101.com/library/sF2jRZ
 
 ### Pascal Case - digits allowed
 
-To be proper pascal case a word with digits allowed and with upto 3 upper case letters, a word:
+To be proper pascal case a word with digits allowed and with upto 3 upper case letters:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -157,7 +157,7 @@ Regex 101 library entry: https://regex101.com/library/csrkQw
 
 ### Pascal Case - *no* digits allowed - Upto 3 upper case letters
 
-To be proper pascal case a word with no digits allowed and with upto 3 upper case letters, a word:
+To be proper pascal case a word with no digits allowed and with upto 3 upper case letters:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no digits (0 - 9)
 * MUST have no spaces, punctuation or special characters
@@ -185,7 +185,7 @@ Regex 101 library entry: https://regex101.com/library/0HyUw3
 
 ### Pascal Case - digits allowed - Upto 3 upper case letters
 
-To be proper pascal case a word with digits allowed and with upto 3 upper case letters, a word:
+To be proper pascal case a word with digits allowed and with upto 3 upper case letters:
 * MUST start with an upper case alphabet (A through Z)
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
