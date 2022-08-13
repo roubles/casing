@@ -11,7 +11,7 @@ Camel Case can be broken down into:
 
 Common rules:
 * Camel case words MUST start with a lower case alphabet or an upper case alphabet
-* Camel case words CAN AT MOST have one capital letter in a row. Note: some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNO```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
+* Camel case words CAN AT MOST have one capital letter in a row. Note: some implementations allow for more than one upper case alphabet in a row, to support capitalized acronyms such as ```deviceID```, ```SerialNO```, ```IOStream```, ```StreamIO```, ```awsVPC```. This rule is documented in Microsoft's [Capitalization Convention](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions).
 * Camel case words MUST HAVE no Spaces, punctuation, underscores, dots and special characters.
 * Camel case words MAY have all lower case alphabets.
 * Camel case words MAY end in an upper case alphabet.
