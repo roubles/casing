@@ -38,7 +38,7 @@ To be proper camel case a word with no digits allowed, a word:
 * MAY end in an uppercase alphabet
 
 ```
-^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]{0,1}|([a-z]+[A-Z])*|[A-Z])$
+^[a-z][a-z]*(([A-Z][a-z]+)*[A-Z]?|([a-z]+[A-Z])*|[A-Z])$
 ```
 - Regex 101 library entry: https://regex101.com/library/4h7A1I
 
@@ -60,7 +60,7 @@ To be proper camel case a word with digits allowed, a word:
 * MAY end in an uppercase alphabet
 
 ```
-^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]{0,1}|([a-z0-9]+[A-Z])*|[A-Z])$
+^[a-z][a-z0-9]*(([A-Z][a-z0-9]+)*[A-Z]?|([a-z0-9]+[A-Z])*|[A-Z])$
 ```
 - Regex 101 library entry: https://regex101.com/library/8nQras
 
