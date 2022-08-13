@@ -11,7 +11,7 @@ deviceSNS
 pathASNs
 dscpCP
 awsVPC
-serialNo
+serialNO
 deviceID
 camelCasecamelCasecamelCasecamelCasecamelCasecamelCase
 gREAt

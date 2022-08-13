@@ -11,7 +11,7 @@ Camel Case can be broken down into:
 
 Common rules:
 * Camel case words MUST start with a lower case alphabet or an upper case alphabet
-* Camel case words CAN AT MOST have one capital letter in a row. Note: some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNo```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
+* Camel case words CAN AT MOST have one capital letter in a row. Note: some implementations allow for more than one upper case alphabet in a row, to support tech usecases such as ```deviceID```, ```SerialNO```, ```IOStream```, ```StreamIO```, ```awsVPC```. [[1](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions)]
 * Camel case words MUST HAVE no Spaces, punctuation, underscores, dots and special characters.
 * Camel case words MAY have all lower case alphabets.
 * Camel case words MAY end in an upper case alphabet.
@@ -81,7 +81,7 @@ To be proper camel case a word with *no* digits allowed and upto 3 upper case le
 * Can have *at most* 3 uppercase alphabets in a row
 * Can end in an uppercase alphabet
 
-This variation is used to support phrases like ``deviceID```, ```serialNo```, ```streamIO```, ```awsVPC```.
+This variation is used to support phrases like ``deviceID```, ```serialNO```, ```streamIO```, ```awsVPC```.
 
 ```
 ^[a-z][a-z]*(([A-Z]{1,3}[a-z]+)*[A-Z]{0,3}|([a-z]+[A-Z]{1,3})*|[A-Z]{1,3})$
@@ -91,7 +91,7 @@ Regex 101 library entry: https://regex101.com/library/bn3PEK
 #### Notable examples
 * ```streamIO``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
 * ```deviceID``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
-* ```serialNo``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
+* ```serialNO``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
 * ```awsVPC``` is valid lower camel case with *no* digits allowed - Upto 3 upper case letters
 
 ### Camel Case - digits allowed - Upto 3 upper case letters
@@ -102,7 +102,7 @@ To be proper camel case a word with digits allowed and upto 3 upper case letters
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
 
-This variation is used to support phrases like ``deviceID```, ```serialNo```, ```streamIO```, ```awsVPC```.
+This variation is used to support phrases like ``deviceID```, ```serialNO```, ```streamIO```, ```awsVPC```.
 
 ```
 ^[a-z][a-z0-9]*(([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{1,3})*|[A-Z]{1,3})$
@@ -164,7 +164,7 @@ To be proper pascal case a word with no digits allowed and with upto 3 upper cas
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
 
-This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNo```.
+This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNO```.
 
 ```
 ^[A-Z](([A-Z]{1,2}[a-z]+)+([A-Z]{1,3}[a-z]+)*[A-Z]{0,3}|([a-z]+[A-Z]{0,3})*|[A-Z]{1,2})$
@@ -191,7 +191,7 @@ To be proper pascal case a word with digits allowed and with upto 3 upper case l
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
 
-This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNo```.
+This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNO```.
 
 ```
 ^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
