@@ -81,6 +81,8 @@ To be proper camel case a word with *no* digits allowed and upto 3 upper case le
 * Can have *at most* 3 uppercase alphabets in a row
 * Can end in an uppercase alphabet
 
+This variation is used to support phrases like ``deviceID```, ```serialNo```, ```streamIO```, ```awsVPC```.
+
 ```
 ^[a-z][a-z]*(([A-Z]{1,3}[a-z]+)*[A-Z]{0,3}|([a-z]+[A-Z]{1,3})*|[A-Z]{1,3})$
 ```
@@ -99,6 +101,8 @@ To be proper camel case a word with digits allowed and upto 3 upper case letters
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
+
+This variation is used to support phrases like ``deviceID```, ```serialNo```, ```streamIO```, ```awsVPC```.
 
 ```
 ^[a-z][a-z0-9]*(([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{1,3})*|[A-Z]{1,3})$
@@ -160,6 +164,8 @@ To be proper pascal case a word with no digits allowed and with upto 3 upper cas
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
 
+This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNo```.
+
 ```
 ^[A-Z](([A-Z]{1,2}[a-z]+)+([A-Z]{1,3}[a-z]+)*[A-Z]{0,3}|([a-z]+[A-Z]{0,3})*|[A-Z]{1,2})$
 ```
@@ -184,6 +190,8 @@ To be proper pascal case a word with digits allowed and with upto 3 upper case l
 * MUST have no spaces, punctuation or special characters
 * CAN have *at most* 3 uppercase alphabets in a row
 * CAN end in an uppercase alphabet
+
+This variation is used to support phrases like ``DeviceID```, ```DeviceSN```, ```StreamIO```, ```IOStream```, ```AwsVPC```, ```SerialNo```.
 
 ```
 ^[A-Z](([A-Z]{1,2}[a-z0-9]+)+([A-Z]{1,3}[a-z0-9]+)*[A-Z]{0,3}|([a-z0-9]+[A-Z]{0,3})*|[A-Z]{1,2})$
